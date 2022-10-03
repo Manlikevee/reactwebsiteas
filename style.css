@@ -425,7 +425,76 @@ color: rgba(141, 143, 144, 1);
      margin-bottom: 30px;
 
 }
+.hersec2{
+  width: 100%;
+  min-height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(assets/img/Rectangle\ 125\ \(4\).png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: darken;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
 
+}
+.emptys{
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 60px;
+}
+.twosidecontent{
+  display: flex;
+  padding-block: 40px;
+  grid-gap: 30px;
+}
+
+.sideoftext{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  grid-gap: 10px;
+  margin: auto;
+}
+.sideofimg{
+  width: 100%;
+  display: flex;
+}
+.sideofimg img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.hdn{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(48, 48, 48);
+
+}
+
+
+.bdy{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: inherit;
+  color: rgba(89, 89, 89, 1);
+
+}
 .herosectiontext{
    
     height: 100%;
@@ -961,6 +1030,16 @@ color:rgba(34, 34, 34, 1)
 
     .solutionsflex1{
         flex-direction: column;
+    }
+    .twosidecontent{
+      display: flex;
+      flex-direction: column;
+      padding-block: 40px;
+      grid-gap: 30px;
+    }
+
+    .rvs{
+      flex-direction: column-reverse;
     }
     .tpsd{
         width: 100%;
