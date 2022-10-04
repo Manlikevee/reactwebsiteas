@@ -1,0 +1,337 @@
+import React from "react"
+import { Link } from "gatsby"
+import { se2 } from './isslabout.module.css'
+import { sectcontnt } from './isslabout.module.css'
+import { herosectiontext } from './isslabout.module.css'
+import { bodycontainer } from './isslabout.module.css'
+import { btmsd } from './isslabout.module.css'
+import { isslbodyofwork } from './isslabout.module.css'
+import { nomediaquerygrid } from './isslabout.module.css'
+import { autogrid } from './isslabout.module.css'
+import { boxw } from './isslabout.module.css'
+import { imside } from './isslabout.module.css'
+import { txside } from './isslabout.module.css'
+import { txside2} from './isslabout.module.css'
+import { txside3 } from './isslabout.module.css'
+import { rgtarw } from './isslabout.module.css'
+import { nxtscr } from './isslabout.module.css'
+import { splitsecond} from './isslabout.module.css'
+import { topspanner } from './isslabout.module.css'
+import { bottomspanner } from './isslabout.module.css'
+import { imageitall} from './isslabout.module.css'
+import { oursolution} from './isslabout.module.css'
+import { esx } from './isslabout.module.css'
+import { solutionsflex1 } from './isslabout.module.css'
+import {strech1 } from './isslabout.module.css'
+import { ico } from './isslabout.module.css'
+import { hed } from './isslabout.module.css'
+import { tx} from './isslabout.module.css'
+import { strech2 } from './isslabout.module.css'
+import { bpn} from './isslabout.module.css'
+import { box1 } from './isslabout.module.css'
+import { as } from './isslabout.module.css'
+import { bs } from './isslabout.module.css'
+import { ntnt } from './isslabout.module.css'
+import { footersect } from './isslabout.module.css'
+import { startconvo } from './isslabout.module.css'
+import { fs } from './isslabout.module.css'
+import { startconvotxt } from './isslabout.module.css'
+import { startconvobtn } from './isslabout.module.css'
+import { contactusbtn } from './isslabout.module.css'
+import { footergrid } from './isslabout.module.css'
+import { logos } from './isslabout.module.css'
+import { logo } from './isslabout.module.css'
+import { addresssd } from './isslabout.module.css'
+import { addre } from './isslabout.module.css'
+import { tele } from './isslabout.module.css'
+import { mail } from './isslabout.module.css'
+import { linksd } from './isslabout.module.css'
+import { qkl } from './isslabout.module.css'
+import { othlink } from './isslabout.module.css'
+import { inputsd } from './isslabout.module.css'
+import { getupdat } from './isslabout.module.css'
+import { ourproducts } from './isslabout.module.css'
+import { howitall } from './isslabout.module.css'
+import { tpsd } from './isslabout.module.css'
+import { hersec } from './isslabout.module.css'
+import { inptbx } from './isslabout.module.css'
+import { subbtn } from './isslabout.module.css'
+
+import { paragraph1 } from './isslabout.module.css'
+import { hersec3 } from './isslabout.module.css'
+import { emptys } from './isslabout.module.css'
+import { auto_grid } from './isslabout.module.css'
+import { auto_grid2 } from './isslabout.module.css'
+import { boxgrid } from './isslabout.module.css'
+import { heas } from './isslabout.module.css'
+import { bod } from './isslabout.module.css'
+import { vision } from './isslabout.module.css'
+import { sss } from './isslabout.module.css'
+import { dddd } from './isslabout.module.css'
+import { sstx } from './isslabout.module.css'
+import { ssbod } from './isslabout.module.css'
+
+
+import {meimg} from './assets/img/Rectangle 126.png'
+import Isslnavbar from '../isslnavbar/index'
+
+import styles from './_styles'
+
+
+const Isslabout = (props) => (
+
+<>
+<Isslnavbar />
+
+<div className={sectcontnt}>
+    <div className={hersec3}>
+      <div className="herosectiontext bodycontainer"></div>
+    </div>
+    <div className={bodycontainer}>
+      <div className={emptys}>
+        <div className={topspanner}>
+          Our Story
+          <span />
+        </div>
+        <div className={ourstorycontent}>
+          <div className={paragraph1}>
+            Integrated Software Services Ltd. (ISSL) is a software development and
+            consulting company founded in 2000, ISSL uses world-class tools and
+            the best of personnel to deliver quality software and hardware
+            development solutions. In 2000, we saw that there was a lack of
+            reliable, fast and cost-effective software solutions for the banking
+            sector in Nigeria.
+            <p>
+              Given our background in banking and software development, we found
+              the perfect fit to service this industry by developing core banking
+              software, including solutions for retail banking, loans, mortgages
+              and more. Today, we have expanded beyond banking, developing new
+              software to adapt to market demand, as well as partnering with world
+              class leaders to offer software and hardware in a number of
+              different areas.
+            </p>
+          </div>
+        </div>
+        <div className={topspanner}>
+          Values and Culture
+          <span />
+        </div>
+        <div className={culturevalues}>
+          <div className={paragraph1}>
+            Our goal is to help our clients improve their profitability and
+            business efficiency by providing them with the best solutions,
+            services and prices available in banking, security and CRM software
+            and hardware development. We do this through our commitment to
+            Integrity, Innovation and Service.
+          </div>
+        </div>
+            <div className={auto_grid}>
+          <div className={boxgrid}>
+            <div className={ima}>
+              <img src="assets/img/Vector.png" alt="" />
+            </div>
+            <div className={heas}>Integrity.</div>
+            <div className={bod}>
+              We walk the talk and keep our promises. Every solution we recommend
+              we can implement with 100% confidence.{" "}
+            </div>
+          </div>
+          <div className={boxgrid}>
+            <div className={ima}>
+              <img src="assets/img/Vector (1).png" alt="" />
+            </div>
+            <div className={heas}>Service.</div>
+            <div className={bod}>
+              Customer satisfaction is critical to our success. As such, we are
+              committed to providing flexible, low-cost solutions to our customers
+              that will help make their businesses run more smoothly and
+              profitably.
+            </div>
+          </div>
+          <div className={boxgrid}>
+            <div className={ima}>
+              <img src="assets/img/Vector (2).png" alt="" />
+            </div>
+            <div className={heas}>Innovation.</div>
+            <div className={bod}>
+              Solutions to yesterday’s problems will be obsolete tomorrow. As
+              such, we are always reviewing our products, and those of our
+              partners, to ensure they meet the evolving demands of our clients.
+              We are committed to helping our customers stay well ahead of their
+              competitors.
+            </div>
+          </div>
+        </div>
+        <div className={vision}>
+          <h3>Our Vision</h3>
+          <span />
+        </div>
+        <div className={auto_grid2}>
+          <div className={sss}>
+            <div className={dddd}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                viewBox="0 0 24 24"
+                className="css-148af3a-ContentIcon"
+              >
+                <path d="M19.864,8.465C19.953,8.152,20,7.827,20,7.5c0-1.817-1.392-3.315-3.166-3.484C16.426,2.844,15.31,2,14,2 c-0.771,0-1.468,0.301-2,0.78C11.468,2.301,10.771,2,10,2C8.699,2,7.59,2.831,7.175,4.015C5.396,4.18,4,5.68,4,7.5 c0,0.327,0.047,0.652,0.136,0.965C2.861,9.143,2,10.495,2,12c0,1.075,0.428,2.086,1.172,2.832C3.059,15.208,3,15.603,3,16 c0,1.957,1.412,3.59,3.306,3.934C6.86,21.165,8.104,22,9.5,22c0.979,0,1.864-0.407,2.5-1.059C12.636,21.593,13.521,22,14.5,22 c1.394,0,2.635-0.831,3.19-2.06C19.568,19.612,21,17.97,21,16c0-0.397-0.059-0.792-0.172-1.168C21.572,14.086,22,13.075,22,12 C22,10.495,21.139,9.143,19.864,8.465z M9.5,20c-0.711,0-1.33-0.504-1.47-1.198L7.818,18H7c-1.103,0-2-0.897-2-2 c0-0.352,0.085-0.682,0.253-0.981l0.456-0.816l-0.784-0.51C4.346,13.315,4,12.683,4,12c0-0.977,0.723-1.824,1.682-1.972l1.693-0.26 L6.316,8.422C6.112,8.162,6,7.835,6,7.5C6,6.673,6.673,6,7.5,6c0.106,0,0.214,0.014,0.314,0.032L9,6.207V5c0-0.552,0.448-1,1-1 s1,0.448,1,1v13.5C11,19.327,10.327,20,9.5,20z M19.075,13.692l-0.784,0.51l0.456,0.816C18.915,15.318,19,15.648,19,16 c0,1.103-0.897,2-2.05,2h-0.818l-0.162,0.802C15.83,19.496,15.211,20,14.5,20c-0.827,0-1.5-0.673-1.5-1.5V5c0-0.552,0.448-1,1-1 s1,0.448,1,1.05v1.207l1.186-0.225C16.286,6.014,16.394,6,16.5,6C17.327,6,18,6.673,18,7.5c0,0.335-0.112,0.662-0.316,0.922 l-1.059,1.347l1.693,0.26C19.277,10.176,20,11.023,20,12C20,12.683,19.654,13.315,19.075,13.692z" />
+              </svg>
+            </div>
+            <div className={sstx}>Diversity</div>
+            <div className={ssbod}>
+              A diverse culture creates communities that celebrates differences.
+              ISSL encourages their employees to create their unique qualities.
+            </div>
+          </div>
+          <div className={sss}>
+            <div className={dddd}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                viewBox="0 0 24 24"
+                className="css-148af3a-ContentIcon"
+              >
+                <path d="M2 12h2c0-1.086.211-2.136.627-3.122.401-.954.978-1.809 1.71-2.541.735-.735 1.591-1.311 2.542-1.71 1.936-.816 4.181-.827 6.13-.041C15.055 5.931 16.144 7 17.5 7 18.886 7 20 5.886 20 4.5S18.886 2 17.5 2c-.689 0-1.312.276-1.763.725-2.431-.973-5.223-.958-7.635.059-1.189.5-2.26 1.22-3.18 2.139-.917.916-1.637 1.986-2.14 3.179C2.264 9.334 2 10.646 2 12zM19.373 15.122c-.401.952-.977 1.808-1.71 2.541s-1.589 1.309-2.542 1.71c-1.936.816-4.181.827-6.13.041C8.945 18.069 7.856 17 6.5 17 5.114 17 4 18.114 4 19.5S5.114 22 6.5 22c.689 0 1.312-.276 1.763-.725C9.449 21.752 10.704 22 12 22c1.354 0 2.665-.264 3.897-.783 1.192-.503 2.263-1.223 3.18-2.14s1.637-1.987 2.14-3.179C21.736 14.665 22 13.354 22 12h-2C20 13.085 19.789 14.135 19.373 15.122z" />
+                <path d="M12,7.462c-2.502,0-4.538,2.036-4.538,4.538S9.498,16.538,12,16.538s4.538-2.036,4.538-4.538S14.502,7.462,12,7.462z M12,14.538c-1.399,0-2.538-1.139-2.538-2.538S10.601,9.462,12,9.462s2.538,1.139,2.538,2.538S13.399,14.538,12,14.538z" />
+              </svg>
+            </div>
+            <div className={sstx}>Personal Growth</div>
+            <div className={ssbod}>
+              Growth is one of the top core values for ISSL. We offer personal
+              growth for employees to pursue personal development..
+            </div>
+          </div>
+          <div className={sss}>
+            <div className={dddd}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                viewBox="0 0 24 24"
+                className="css-148af3a-ContentIcon"
+              >
+                <path d="M20,2H4C2.897,2,2,2.897,2,4v12c0,1.103,0.897,2,2,2h3v3.767L13.277,18H20c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M20,16h-7.277L9,18.233V16H4V4h16V16z" />
+                <path d="M7 7H17V9H7zM7 11H14V13H7z" />
+              </svg>
+            </div>
+            <div className={sstx}>Team Work</div>
+            <div className={ssbod}>
+              We assign teams to tasks to promote teamwork which encourages
+              communication and the flow of ideas.
+            </div>
+          </div>
+          <div className={sss}>
+            <div className={dddd}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={24}
+                height={24}
+                viewBox="0 0 24 24"
+                className="css-148af3a-ContentIcon"
+              >
+                <path d="M19.864,8.465C19.953,8.152,20,7.827,20,7.5c0-1.817-1.392-3.315-3.166-3.484C16.426,2.844,15.31,2,14,2 c-0.771,0-1.468,0.301-2,0.78C11.468,2.301,10.771,2,10,2C8.699,2,7.59,2.831,7.175,4.015C5.396,4.18,4,5.68,4,7.5 c0,0.327,0.047,0.652,0.136,0.965C2.861,9.143,2,10.495,2,12c0,1.075,0.428,2.086,1.172,2.832C3.059,15.208,3,15.603,3,16 c0,1.957,1.412,3.59,3.306,3.934C6.86,21.165,8.104,22,9.5,22c0.979,0,1.864-0.407,2.5-1.059C12.636,21.593,13.521,22,14.5,22 c1.394,0,2.635-0.831,3.19-2.06C19.568,19.612,21,17.97,21,16c0-0.397-0.059-0.792-0.172-1.168C21.572,14.086,22,13.075,22,12 C22,10.495,21.139,9.143,19.864,8.465z M9.5,20c-0.711,0-1.33-0.504-1.47-1.198L7.818,18H7c-1.103,0-2-0.897-2-2 c0-0.352,0.085-0.682,0.253-0.981l0.456-0.816l-0.784-0.51C4.346,13.315,4,12.683,4,12c0-0.977,0.723-1.824,1.682-1.972l1.693-0.26 L6.316,8.422C6.112,8.162,6,7.835,6,7.5C6,6.673,6.673,6,7.5,6c0.106,0,0.214,0.014,0.314,0.032L9,6.207V5c0-0.552,0.448-1,1-1 s1,0.448,1,1v13.5C11,19.327,10.327,20,9.5,20z M19.075,13.692l-0.784,0.51l0.456,0.816C18.915,15.318,19,15.648,19,16 c0,1.103-0.897,2-2.05,2h-0.818l-0.162,0.802C15.83,19.496,15.211,20,14.5,20c-0.827,0-1.5-0.673-1.5-1.5V5c0-0.552,0.448-1,1-1 s1,0.448,1,1.05v1.207l1.186-0.225C16.286,6.014,16.394,6,16.5,6C17.327,6,18,6.673,18,7.5c0,0.335-0.112,0.662-0.316,0.922 l-1.059,1.347l1.693,0.26C19.277,10.176,20,11.023,20,12C20,12.683,19.654,13.315,19.075,13.692z" />
+              </svg>
+            </div>
+            <div className={sstx}>Always Learn</div>
+            <div className={ssbod}>
+              The field of technology is ever-changing. We need to get the value
+              of continuous learning.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <div className={footersect}>
+      <div className={startconvo}>
+        <div className={bodycontainer}>
+          <div className={fs}>
+            <div className={startconvotxt}>Lets start a Conversation</div>
+            <div className={startconvobtn}>
+              <div className={contactusbtn}>
+                <a href="">CONTACT US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={bodycontainer}>
+        <div className={footergrid}>
+          <div className={logos}>
+            <div className={logo}>
+              <svg
+                width={60}
+                height={60}
+                viewBox="0 0 60 60"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width={60} height={60} fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width={1}
+                    height={1}
+                  >
+                    <use
+                      xlinkHref="#image0_1964_1593"
+                      transform="scale(0.00444444)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1964_1593"
+                    width={225}
+                    height={225}
+                    xlinkHref="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+            </div>
+          </div>
+          <div className={addresssd}>
+            <div className={addre}>
+              1st Floor, Tapa House, 3/5, Imam Dauda Street, Surulere, Lagos.
+            </div>
+            <div className={tele}>+2348091863306, +2348033151879</div>
+            <div className={mail}>mails@isslng.com, talk2us@isslng.com</div>
+          </div>
+          <div className={linksd}>
+            <div className={qkl}>Quick links</div>
+            <div className={othlink}>About</div>
+            <div className={othlink}>Services</div>
+            <div className={othlink}>Solutions</div>
+            <div className={othlink}>  <Link to="/ouproduct"> Products </Link></div>
+            <div className={othlink}>Technologies</div>
+          </div>
+          <div className={inputsd}>
+            <div className={getupdat}>Get Updates</div>
+            <div className={inptbx}>
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="enter your email"
+              />
+            </div>
+            <div className={subbtn}>
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</>
+
+)
+
+export default Isslabout
