@@ -72,6 +72,9 @@ import { sstx } from './isslsolutions.module.css'
 import { ssbod } from './isslsolutions.module.css'
 import { ssbod } from './isslsolutions.module.css'
 import { sideofimgs } from './isslsolutions.module.css'
+import {sideofimg} from './isslsolutions.module.css'
+
+import {hersec2} from './isslsolutions.module.css'
 
 import {meimg} from './assets/img/Rectangle 126.png'
 import Isslnavbar from '../isslnavbar/index'
@@ -84,6 +87,143 @@ const Isslsolutions = (props) => (
 <>
 <Isslnavbar />
 
+<div className={sectcontnt}>
+    <div className={hersec2}>
+      <div className={bodycontainer}>
+        <div className={tpsd}>
+          <h3>
+       
+            <p>Re-think applications; </p>
+            Re-imagine business
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div className={bodycontainer}>
+      <div className={emptys}>
+        <div className={rvs}>
+          <div className={sideoftext}>
+            <div className={bdy}>
+              ISSL is your trusted partner to help you simplify, modernize, and
+              accelerate mission-critical applications that support business
+              agility and growth. Take advantage of the latest digital platforms
+              with both custom and packaged applications, ensure resiliency,
+              launch new products and enter new markets with minimal disruption.
+            </div>
+            <div className={bdy}>
+              Our services help you elevate customer and employee experiences by
+              improving end-to-end personalization and unlocking data for deeper
+              insights. Find out how to drive down costs, creating more efficient
+              and effective business processes that enable you to reimagine your
+              business.
+            </div>
+          </div>
+          <div className={sideofimgs}>
+            <img src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/Rectangle%20226.png?raw=true" alt="" />
+          </div>
+        </div>
+        <div className={twosidecontent}>
+          <div className={sideofimg}>
+            <img src="https://github.com/Manlikevee/reactwebsiteas/raw/master/assets/img/Rectangle 130 (19).png" alt="" />
+          </div>
+          <div className={sideoftext}>
+            <div className={hdn}>Application Modernization</div>
+            <div className={bdy}>
+              We use ideation, pilots and proofs of concept to quickly identify
+              modernization priorities, building and deploying modernization
+              sprints at scale. We continuously optimize processes to reduce cost
+              and risk while increasing speed at every stage. We help accelerate
+              your path to innovation and realize business benefits faster. From
+              improved customer experiences and retention, to increased sales and
+              a reduction of costs, we help you to assess and prioritize what will
+              enable you to meet your organizational goals​.
+            </div>
+          </div>
+        </div>
+        <div className={rvs}>
+          <div className={sideoftext}>
+            <div className={hdn}>Enterprise Applications and SaaS</div>
+            <div className={bdy}>
+              Our Enterprise Applications and SaaS services help customers
+              develop, integrate, implement and manage enterprise applications
+              across lines of business.
+              <p>
+                Our experts bring industry, business process, systems integration
+                and technical delivery experience. They deliver innovation and
+                value through end-to-end solutions based on third-party
+                software-as-a-service solutions and enterprise application
+                software for cloud, on-premises and hybrid environments.
+              </p>
+            </div>
+          </div>
+          <div className={sideofimg}>
+            <img src="https://github.com/Manlikevee/reactwebsiteas/raw/master/assets/img/Rectangle%20130%20(20).png" alt="" />
+          </div>
+        </div>
+        <div className={twosidecontent}>
+          <div className={sideofimg}>
+            <img src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/Rectangle%20130%20(21)%20-%20Copy.png?raw=true" alt="" />
+          </div>
+          <div className={sideoftext}>
+            <div className={hdn}>Modern Applications Development</div>
+            <div className={bdy}>
+              Our Modern Applications Development services enable enterprises to
+              achieve the agility required to improve time to market, reduce
+              costs, attain resiliency and enhance customer experiences, while
+              positioning for growth through innovation. We deliver outcomes
+              through data-driven assessments, rapid development of cloud-enabled
+              and cloud native applications, and APIs/microservices, while
+              incorporating Lean-Agile and DevOps principles into our end-to-end
+              software engineering methods and tooling.
+            </div>
+          </div>
+        </div>
+        <div className={ourproducts}>
+          <div className={topspanner}>
+            Explore our Products
+            <span />
+          </div>
+          <div className={nomediaquerygrid}>
+            <div className={autogrid}>
+              <div className={ntnt}>
+                <div className={as}>
+                  <img src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/Rectangle 132.png" alt="" />
+                </div>
+                <div className={bs}>
+                  Do more than banking with our IntegraBanking Application
+                  <span>
+
+                  </span>
+                </div>
+              </div>
+              <div className={ntnt}>
+                <div className={as}>
+                  <img src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/Rectangle 132.png" alt="" />
+                </div>
+                <div className={bs}>
+                  Digital onboarding processes for SME and Corporate clients
+                  <span>
+
+                  </span>
+                </div>
+              </div>
+              <div className={ntnt}>
+                <div className={as}>
+                  <img src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/Rectangle 132.png" alt="" />
+                </div>
+                <div className={bs}>
+                  Online banking transaction with mobile banking application
+                  <span>
+
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
