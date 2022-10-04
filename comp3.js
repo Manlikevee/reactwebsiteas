@@ -1,76 +1,77 @@
 import React from "react"
 import { Link } from "gatsby"
-import { se2 } from './isslabout.module.css'
-import { sectcontnt } from './isslabout.module.css'
-import { herosectiontext } from './isslabout.module.css'
-import { bodycontainer } from './isslabout.module.css'
-import { btmsd } from './isslabout.module.css'
-import { isslbodyofwork } from './isslabout.module.css'
-import { nomediaquerygrid } from './isslabout.module.css'
-import { autogrid } from './isslabout.module.css'
-import { boxw } from './isslabout.module.css'
-import { imside } from './isslabout.module.css'
-import { txside } from './isslabout.module.css'
-import { txside2} from './isslabout.module.css'
-import { txside3 } from './isslabout.module.css'
-import { rgtarw } from './isslabout.module.css'
-import { nxtscr } from './isslabout.module.css'
-import { splitsecond} from './isslabout.module.css'
-import { topspanner } from './isslabout.module.css'
-import { bottomspanner } from './isslabout.module.css'
-import { imageitall} from './isslabout.module.css'
-import { oursolution} from './isslabout.module.css'
-import { esx } from './isslabout.module.css'
-import { solutionsflex1 } from './isslabout.module.css'
-import {strech1 } from './isslabout.module.css'
-import { ico } from './isslabout.module.css'
-import { hed } from './isslabout.module.css'
-import { tx} from './isslabout.module.css'
-import { strech2 } from './isslabout.module.css'
-import { bpn} from './isslabout.module.css'
-import { box1 } from './isslabout.module.css'
-import { as } from './isslabout.module.css'
-import { bs } from './isslabout.module.css'
-import { ntnt } from './isslabout.module.css'
-import { footersect } from './isslabout.module.css'
-import { startconvo } from './isslabout.module.css'
-import { fs } from './isslabout.module.css'
-import { startconvotxt } from './isslabout.module.css'
-import { startconvobtn } from './isslabout.module.css'
-import { contactusbtn } from './isslabout.module.css'
-import { footergrid } from './isslabout.module.css'
-import { logos } from './isslabout.module.css'
-import { logo } from './isslabout.module.css'
-import { addresssd } from './isslabout.module.css'
-import { addre } from './isslabout.module.css'
-import { tele } from './isslabout.module.css'
-import { mail } from './isslabout.module.css'
-import { linksd } from './isslabout.module.css'
-import { qkl } from './isslabout.module.css'
-import { othlink } from './isslabout.module.css'
-import { inputsd } from './isslabout.module.css'
-import { getupdat } from './isslabout.module.css'
-import { ourproducts } from './isslabout.module.css'
-import { howitall } from './isslabout.module.css'
-import { tpsd } from './isslabout.module.css'
-import { hersec } from './isslabout.module.css'
-import { inptbx } from './isslabout.module.css'
-import { subbtn } from './isslabout.module.css'
+import { se2 } from './isslsolutions.module.css'
+import { sectcontnt } from './isslsolutions.module.css'
+import { herosectiontext } from './isslsolutions.module.css'
+import { bodycontainer } from './isslsolutions.module.css'
+import { btmsd } from './isslsolutions.module.css'
+import { isslbodyofwork } from './isslsolutions.module.css'
+import { nomediaquerygrid } from './isslsolutions.module.css'
+import { autogrid } from './isslsolutions.module.css'
+import { boxw } from './isslsolutions.module.css'
+import { imside } from './isslsolutions.module.css'
+import { txside } from './isslsolutions.module.css'
+import { txside2} from './isslsolutions.module.css'
+import { txside3 } from './isslsolutions.module.css'
+import { rgtarw } from './isslsolutions.module.css'
+import { nxtscr } from './isslsolutions.module.css'
+import { splitsecond} from './isslsolutions.module.css'
+import { topspanner } from './isslsolutions.module.css'
+import { bottomspanner } from './isslsolutions.module.css'
+import { imageitall} from './isslsolutions.module.css'
+import { oursolution} from './isslsolutions.module.css'
+import { esx } from './isslsolutions.module.css'
+import { solutionsflex1 } from './isslsolutions.module.css'
+import {strech1 } from './isslsolutions.module.css'
+import { ico } from './isslsolutions.module.css'
+import { hed } from './isslsolutions.module.css'
+import { tx} from './isslsolutions.module.css'
+import { strech2 } from './isslsolutions.module.css'
+import { bpn} from './isslsolutions.module.css'
+import { box1 } from './isslsolutions.module.css'
+import { as } from './isslsolutions.module.css'
+import { bs } from './isslsolutions.module.css'
+import { ntnt } from './isslsolutions.module.css'
+import { footersect } from './isslsolutions.module.css'
+import { startconvo } from './isslsolutions.module.css'
+import { fs } from './isslsolutions.module.css'
+import { startconvotxt } from './isslsolutions.module.css'
+import { startconvobtn } from './isslsolutions.module.css'
+import { contactusbtn } from './isslsolutions.module.css'
+import { footergrid } from './isslsolutions.module.css'
+import { logos } from './isslsolutions.module.css'
+import { logo } from './isslsolutions.module.css'
+import { addresssd } from './isslsolutions.module.css'
+import { addre } from './isslsolutions.module.css'
+import { tele } from './isslsolutions.module.css'
+import { mail } from './isslsolutions.module.css'
+import { linksd } from './isslsolutions.module.css'
+import { qkl } from './isslsolutions.module.css'
+import { othlink } from './isslsolutions.module.css'
+import { inputsd } from './isslsolutions.module.css'
+import { getupdat } from './isslsolutions.module.css'
+import { ourproducts } from './isslsolutions.module.css'
+import { howitall } from './isslsolutions.module.css'
+import { tpsd } from './isslsolutions.module.css'
+import { hersec } from './isslsolutions.module.css'
+import { inptbx } from './isslsolutions.module.css'
+import { subbtn } from './isslsolutions.module.css'
 
-import { paragraph1 } from './isslabout.module.css'
-import { hersec3 } from './isslabout.module.css'
-import { emptys } from './isslabout.module.css'
-import { auto_grid } from './isslabout.module.css'
-import { auto_grid2 } from './isslabout.module.css'
-import { boxgrid } from './isslabout.module.css'
-import { heas } from './isslabout.module.css'
-import { bod } from './isslabout.module.css'
-import { vision } from './isslabout.module.css'
-import { sss } from './isslabout.module.css'
-import { dddd } from './isslabout.module.css'
-import { sstx } from './isslabout.module.css'
-import { ssbod } from './isslabout.module.css'
-
+import { paragraph1 } from './isslsolutions.module.css'
+import { hersec3 } from './isslsolutions.module.css'
+import { emptys } from './isslsolutions.module.css'
+import { auto_grid } from './isslsolutions.module.css'
+import { auto_grid2 } from './isslsolutions.module.css'
+import { boxgrid } from './isslsolutions.module.css'
+import { heas } from './isslsolutions.module.css'
+import { bod } from './isslsolutions.module.css'
+import { vision } from './isslsolutions.module.css'
+import { sss } from './isslsolutions.module.css'
+import { dddd } from './isslsolutions.module.css'
+import { sstx } from './isslsolutions.module.css'
+import { ssbod } from './isslsolutions.module.css'
+import { ssbod } from './isslsolutions.module.css'
+import { sideofimgs } from './isslsolutions.module.css'
 
 import {meimg} from './assets/img/Rectangle 126.png'
 import Isslnavbar from '../isslnavbar/index'
@@ -78,177 +79,14 @@ import Isslnavbar from '../isslnavbar/index'
 import styles from './_styles'
 
 
-const Isslabout = (props) => (
+const Isslsolutions = (props) => (
 
 <>
 <Isslnavbar />
 
-<div className={sectcontnt}>
-    <div className={hersec3}>
-      <div className="herosectiontext bodycontainer"></div>
-    </div>
-    <div className={bodycontainer}>
-      <div className={emptys}>
-        <div className={topspanner}>
-          Our Story
-          <span />
-        </div>
-        <div className={ourstorycontent}>
-          <div className={paragraph1}>
-            Integrated Software Services Ltd. (ISSL) is a software development and
-            consulting company founded in 2000, ISSL uses world-class tools and
-            the best of personnel to deliver quality software and hardware
-            development solutions. In 2000, we saw that there was a lack of
-            reliable, fast and cost-effective software solutions for the banking
-            sector in Nigeria.
-            <p>
-              Given our background in banking and software development, we found
-              the perfect fit to service this industry by developing core banking
-              software, including solutions for retail banking, loans, mortgages
-              and more. Today, we have expanded beyond banking, developing new
-              software to adapt to market demand, as well as partnering with world
-              class leaders to offer software and hardware in a number of
-              different areas.
-            </p>
-          </div>
-        </div>
-        <div className={topspanner}>
-          Values and Culture
-          <span />
-        </div>
-        <div className={culturevalues}>
-          <div className={paragraph1}>
-            Our goal is to help our clients improve their profitability and
-            business efficiency by providing them with the best solutions,
-            services and prices available in banking, security and CRM software
-            and hardware development. We do this through our commitment to
-            Integrity, Innovation and Service.
-          </div>
-        </div>
-            <div className={auto_grid}>
-          <div className={boxgrid}>
-            <div className={ima}>
-              <img src="assets/img/Vector.png" alt="" />
-            </div>
-            <div className={heas}>Integrity.</div>
-            <div className={bod}>
-              We walk the talk and keep our promises. Every solution we recommend
-              we can implement with 100% confidence.{" "}
-            </div>
-          </div>
-          <div className={boxgrid}>
-            <div className={ima}>
-              <img src="assets/img/Vector (1).png" alt="" />
-            </div>
-            <div className={heas}>Service.</div>
-            <div className={bod}>
-              Customer satisfaction is critical to our success. As such, we are
-              committed to providing flexible, low-cost solutions to our customers
-              that will help make their businesses run more smoothly and
-              profitably.
-            </div>
-          </div>
-          <div className={boxgrid}>
-            <div className={ima}>
-              <img src="assets/img/Vector (2).png" alt="" />
-            </div>
-            <div className={heas}>Innovation.</div>
-            <div className={bod}>
-              Solutions to yesterday’s problems will be obsolete tomorrow. As
-              such, we are always reviewing our products, and those of our
-              partners, to ensure they meet the evolving demands of our clients.
-              We are committed to helping our customers stay well ahead of their
-              competitors.
-            </div>
-          </div>
-        </div>
-        <div className={vision}>
-          <h3>Our Vision</h3>
-          <span />
-        </div>
-        <div className={auto_grid2}>
-          <div className={sss}>
-            <div className={dddd}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                className="css-148af3a-ContentIcon"
-              >
-                <path d="M19.864,8.465C19.953,8.152,20,7.827,20,7.5c0-1.817-1.392-3.315-3.166-3.484C16.426,2.844,15.31,2,14,2 c-0.771,0-1.468,0.301-2,0.78C11.468,2.301,10.771,2,10,2C8.699,2,7.59,2.831,7.175,4.015C5.396,4.18,4,5.68,4,7.5 c0,0.327,0.047,0.652,0.136,0.965C2.861,9.143,2,10.495,2,12c0,1.075,0.428,2.086,1.172,2.832C3.059,15.208,3,15.603,3,16 c0,1.957,1.412,3.59,3.306,3.934C6.86,21.165,8.104,22,9.5,22c0.979,0,1.864-0.407,2.5-1.059C12.636,21.593,13.521,22,14.5,22 c1.394,0,2.635-0.831,3.19-2.06C19.568,19.612,21,17.97,21,16c0-0.397-0.059-0.792-0.172-1.168C21.572,14.086,22,13.075,22,12 C22,10.495,21.139,9.143,19.864,8.465z M9.5,20c-0.711,0-1.33-0.504-1.47-1.198L7.818,18H7c-1.103,0-2-0.897-2-2 c0-0.352,0.085-0.682,0.253-0.981l0.456-0.816l-0.784-0.51C4.346,13.315,4,12.683,4,12c0-0.977,0.723-1.824,1.682-1.972l1.693-0.26 L6.316,8.422C6.112,8.162,6,7.835,6,7.5C6,6.673,6.673,6,7.5,6c0.106,0,0.214,0.014,0.314,0.032L9,6.207V5c0-0.552,0.448-1,1-1 s1,0.448,1,1v13.5C11,19.327,10.327,20,9.5,20z M19.075,13.692l-0.784,0.51l0.456,0.816C18.915,15.318,19,15.648,19,16 c0,1.103-0.897,2-2.05,2h-0.818l-0.162,0.802C15.83,19.496,15.211,20,14.5,20c-0.827,0-1.5-0.673-1.5-1.5V5c0-0.552,0.448-1,1-1 s1,0.448,1,1.05v1.207l1.186-0.225C16.286,6.014,16.394,6,16.5,6C17.327,6,18,6.673,18,7.5c0,0.335-0.112,0.662-0.316,0.922 l-1.059,1.347l1.693,0.26C19.277,10.176,20,11.023,20,12C20,12.683,19.654,13.315,19.075,13.692z" />
-              </svg>
-            </div>
-            <div className={sstx}>Diversity</div>
-            <div className={ssbod}>
-              A diverse culture creates communities that celebrates differences.
-              ISSL encourages their employees to create their unique qualities.
-            </div>
-          </div>
-          <div className={sss}>
-            <div className={dddd}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                className="css-148af3a-ContentIcon"
-              >
-                <path d="M2 12h2c0-1.086.211-2.136.627-3.122.401-.954.978-1.809 1.71-2.541.735-.735 1.591-1.311 2.542-1.71 1.936-.816 4.181-.827 6.13-.041C15.055 5.931 16.144 7 17.5 7 18.886 7 20 5.886 20 4.5S18.886 2 17.5 2c-.689 0-1.312.276-1.763.725-2.431-.973-5.223-.958-7.635.059-1.189.5-2.26 1.22-3.18 2.139-.917.916-1.637 1.986-2.14 3.179C2.264 9.334 2 10.646 2 12zM19.373 15.122c-.401.952-.977 1.808-1.71 2.541s-1.589 1.309-2.542 1.71c-1.936.816-4.181.827-6.13.041C8.945 18.069 7.856 17 6.5 17 5.114 17 4 18.114 4 19.5S5.114 22 6.5 22c.689 0 1.312-.276 1.763-.725C9.449 21.752 10.704 22 12 22c1.354 0 2.665-.264 3.897-.783 1.192-.503 2.263-1.223 3.18-2.14s1.637-1.987 2.14-3.179C21.736 14.665 22 13.354 22 12h-2C20 13.085 19.789 14.135 19.373 15.122z" />
-                <path d="M12,7.462c-2.502,0-4.538,2.036-4.538,4.538S9.498,16.538,12,16.538s4.538-2.036,4.538-4.538S14.502,7.462,12,7.462z M12,14.538c-1.399,0-2.538-1.139-2.538-2.538S10.601,9.462,12,9.462s2.538,1.139,2.538,2.538S13.399,14.538,12,14.538z" />
-              </svg>
-            </div>
-            <div className={sstx}>Personal Growth</div>
-            <div className={ssbod}>
-              Growth is one of the top core values for ISSL. We offer personal
-              growth for employees to pursue personal development..
-            </div>
-          </div>
-          <div className={sss}>
-            <div className={dddd}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                className="css-148af3a-ContentIcon"
-              >
-                <path d="M20,2H4C2.897,2,2,2.897,2,4v12c0,1.103,0.897,2,2,2h3v3.767L13.277,18H20c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M20,16h-7.277L9,18.233V16H4V4h16V16z" />
-                <path d="M7 7H17V9H7zM7 11H14V13H7z" />
-              </svg>
-            </div>
-            <div className={sstx}>Team Work</div>
-            <div className={ssbod}>
-              We assign teams to tasks to promote teamwork which encourages
-              communication and the flow of ideas.
-            </div>
-          </div>
-          <div className={sss}>
-            <div className={dddd}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
-                viewBox="0 0 24 24"
-                className="css-148af3a-ContentIcon"
-              >
-                <path d="M19.864,8.465C19.953,8.152,20,7.827,20,7.5c0-1.817-1.392-3.315-3.166-3.484C16.426,2.844,15.31,2,14,2 c-0.771,0-1.468,0.301-2,0.78C11.468,2.301,10.771,2,10,2C8.699,2,7.59,2.831,7.175,4.015C5.396,4.18,4,5.68,4,7.5 c0,0.327,0.047,0.652,0.136,0.965C2.861,9.143,2,10.495,2,12c0,1.075,0.428,2.086,1.172,2.832C3.059,15.208,3,15.603,3,16 c0,1.957,1.412,3.59,3.306,3.934C6.86,21.165,8.104,22,9.5,22c0.979,0,1.864-0.407,2.5-1.059C12.636,21.593,13.521,22,14.5,22 c1.394,0,2.635-0.831,3.19-2.06C19.568,19.612,21,17.97,21,16c0-0.397-0.059-0.792-0.172-1.168C21.572,14.086,22,13.075,22,12 C22,10.495,21.139,9.143,19.864,8.465z M9.5,20c-0.711,0-1.33-0.504-1.47-1.198L7.818,18H7c-1.103,0-2-0.897-2-2 c0-0.352,0.085-0.682,0.253-0.981l0.456-0.816l-0.784-0.51C4.346,13.315,4,12.683,4,12c0-0.977,0.723-1.824,1.682-1.972l1.693-0.26 L6.316,8.422C6.112,8.162,6,7.835,6,7.5C6,6.673,6.673,6,7.5,6c0.106,0,0.214,0.014,0.314,0.032L9,6.207V5c0-0.552,0.448-1,1-1 s1,0.448,1,1v13.5C11,19.327,10.327,20,9.5,20z M19.075,13.692l-0.784,0.51l0.456,0.816C18.915,15.318,19,15.648,19,16 c0,1.103-0.897,2-2.05,2h-0.818l-0.162,0.802C15.83,19.496,15.211,20,14.5,20c-0.827,0-1.5-0.673-1.5-1.5V5c0-0.552,0.448-1,1-1 s1,0.448,1,1.05v1.207l1.186-0.225C16.286,6.014,16.394,6,16.5,6C17.327,6,18,6.673,18,7.5c0,0.335-0.112,0.662-0.316,0.922 l-1.059,1.347l1.693,0.26C19.277,10.176,20,11.023,20,12C20,12.683,19.654,13.315,19.075,13.692z" />
-              </svg>
-            </div>
-            <div className={sstx}>Always Learn</div>
-            <div className={ssbod}>
-              The field of technology is ever-changing. We need to get the value
-              of continuous learning.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 
-
-  </div>
   <div className={footersect}>
       <div className={startconvo}>
         <div className={bodycontainer}>
@@ -334,4 +172,4 @@ const Isslabout = (props) => (
 
 )
 
-export default Isslabout
+export default Isslsolutions
