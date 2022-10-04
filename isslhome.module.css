@@ -34,15 +34,11 @@ a{
 .row{
 	display: flex;
 	flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.align-items-center{
-	align-items: center;
-}
 
-.justify-content-between{
-	justify-content: space-between;
-}
 
 /*header*/
 .header{
@@ -413,7 +409,7 @@ color: rgba(141, 143, 144, 1);
     min-height: 500px;
      background-repeat: no-repeat;
      background-size: cover;
-     background-image: url('https://github.com/Manlikevee/reactwebsiteas/raw/master/assets/img/Rectangle%20125%20(3).png');
+     background-image: url(assets/img/Rectangle\ 125\ \(3\).png);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -452,13 +448,6 @@ color: rgba(141, 143, 144, 1);
   display: flex;
   padding-block: 40px;
   grid-gap: 30px;
-}
-
-.rvs{
-  display: flex;
-  padding-block: 40px;
-  grid-gap: 30px;
-  flex-direction: row;
 }
 
 .sideoftext{
@@ -703,7 +692,7 @@ color: rgba(34, 34, 34, 1);
 
   .oursolution{
     padding-top: 60px;
-    background-image: url('https://github.com/Manlikevee/reactwebsiteas/raw/master/assets/img/Group%20923.png');
+    background-image: url(assets/img/Group\ 923.png);
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: initial;
