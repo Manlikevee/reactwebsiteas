@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Software Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+    .sideofimg img{
+        border-radius : 16px;
+    }
+
+    .emp{
+        width: 100%;
+        background: rgba(20, 20, 255, 0.18);
+
+    }
+
+    .twgrid {
+    padding-block: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-gap: 20px;
+    grid-auto-rows: 1fr;
+  }
+
+  .twgridbod{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+  }
+
+  .toop{
+
+  }
+
+  .meed{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: justified;
+color: rgba(34, 34, 34, 1);
+
+  }
+
+.bttm{
+    font-family: Poppins;
+font-size: 15.5px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: justified;
+color:rgba(34, 34, 34, 1);
+
+
+  }
+</style>
+
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="logo">
+                   <a href="index.html">
+                
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="60" height="60" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1964_1593" transform="scale(0.00444444)"/>
+                        </pattern>
+                        <image id="image0_1964_1593" width="225" height="225" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                        </svg>
+                        
+                   </a>
+                </div>
+                <button type="button" class="nav-toggler">
+                   <span></span>
+                </button>
+                <nav class="nav">
+                   <ul>
+                      <li><a href="about.html" >About</a></li>
+                      <li><a href="whatwedo.html" >What we do</a></li>
+                      <li><a href="digitalproduct.html">Solutions</a></li>
+                      <li><a href="digitalproduct copy 2.html">Technologies</a></li>
+                      <li><a href="digitalproduct copy.html" >Products</a></li>
+                      <li><a href="contactus.html">Contact Us</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </div>
+     </header>
+
+    <div class="sectcontnt">
+     <div class="hersec2">
+
+
+        <div class="herosectiontext bodycontainer">
+          <div class="tpsd">
+          <h3>  <p>Re-think applications; </p>
+
+          Re-imagine business</h3>  
+          </div>
+        </div>
+     </div>
+
+     <div class="bodycontainer">
+<div class="emptys">
+
+
+    <div class="rvs">
+
+        <div class="sideoftext">
+            <div class="hdn">Banking system revolution</div>
+            <div class="bdy">
+                From internet banking and mobile banking to real-time core banking and Know Your Customer (KYC) solutions, Africa is witnessing a banking system revolution. Today, competitive banks need to offer a combination of online banking and branch solutions that do everything from allowing a customer to send a mobile payment, to checking the verification of a new customer through KYC rules and regulations.
+
+            </div>
+        </div>
+        <div class="sideofimg">
+            <img src="assets/img/business-3d-e-wallet-in-a-phone-with-bank-card-stack-of-coins-and-leather-wallet 1 (8).png" alt="">
+        </div>
+
+    </div>
+
+    <div class="isslbodyofwork">
+        Integrated Software Services Ltd. (ISSL) is a software development and consulting company  whose core purpose is to help companies improve business performance through;
+    </div>
+
+
+
+
+
+
+    </div>
+    </div>
+
+<div class="emp">
+    <div class="bodycontainer">
+        <div class="twgrid">
+            <div class="twgridbod">
+
+                <div class="toop">
+
+                    <svg width="57" height="61" viewBox="0 0 57 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1966_1669)">
+                        <path d="M10.3475 28.6024L30.8486 16.8249L51.3497 28.6024C51.6728 28.7714 52.0488 28.8091 52.399 28.7075C52.7492 28.6059 53.0467 28.3729 53.2292 28.0571C53.4117 27.7414 53.4651 27.3674 53.3783 27.0132C53.2916 26.659 53.0713 26.352 52.7636 26.1564L30.8486 13.5588L8.93368 26.1564C8.76471 26.2448 8.61537 26.3664 8.49464 26.514C8.37391 26.6616 8.28429 26.8321 8.23116 27.0153C8.17803 27.1984 8.16249 27.3904 8.18549 27.5797C8.20848 27.769 8.26953 27.9517 8.36496 28.1168C8.46038 28.2819 8.58822 28.4259 8.74078 28.5403C8.89333 28.6547 9.06745 28.7371 9.25266 28.7825C9.43788 28.8278 9.63035 28.8353 9.81851 28.8043C10.0067 28.7734 10.1866 28.7047 10.3475 28.6024Z" fill="#3A3A85"/>
+                        <path d="M11.0544 46.1909C11.0544 46.5659 11.2034 46.9255 11.4686 47.1906C11.7337 47.4558 12.0933 47.6048 12.4683 47.6048H49.2289C49.6039 47.6048 49.9635 47.4558 50.2286 47.1906C50.4938 46.9255 50.6427 46.5659 50.6427 46.1909C50.6427 45.8159 50.4938 45.4563 50.2286 45.1911C49.9635 44.926 49.6039 44.777 49.2289 44.777H44.9873V34.3568H42.1595V44.777H32.2625V34.3568H29.4347V44.777H19.5377V34.3568H16.7099V44.777H12.4683C12.0933 44.777 11.7337 44.926 11.4686 45.1911C11.2034 45.4563 11.0544 45.8159 11.0544 46.1909Z" fill="#3A3A85"/>
+                        <path d="M12.4967 29.2246H49.2573V32.0523H12.4967V29.2246Z" fill="#3A3A85"/>
+                        <path d="M52.0567 50.4326H9.64067C9.26569 50.4326 8.90607 50.5816 8.64092 50.8467C8.37577 51.1119 8.22681 51.4715 8.22681 51.8465C8.22681 52.2215 8.37577 52.5811 8.64092 52.8462C8.90607 53.1114 9.26569 53.2604 9.64067 53.2604H52.0567C52.4317 53.2604 52.7913 53.1114 53.0565 52.8462C53.3216 52.5811 53.4706 52.2215 53.4706 51.8465C53.4706 51.4715 53.3216 51.1119 53.0565 50.8467C52.7913 50.5816 52.4317 50.4326 52.0567 50.4326Z" fill="#3A3A85"/>
+                        <path d="M36.7162 25.803H41.2547L31.7677 20.3455C31.5957 20.2462 31.4007 20.194 31.2021 20.194C31.0036 20.194 30.8085 20.2462 30.6366 20.3455L21.1354 25.803H25.6739L31.188 22.636L36.7162 25.803Z" fill="#3A3A85"/>
+                        </g>
+                        <circle cx="17.0633" cy="16.5434" r="16.2137" fill="#3A3A85" fill-opacity="0.15"/>
+                        <defs>
+                        <clipPath id="clip0_1966_1669">
+                        <rect width="50.8992" height="50.8992" fill="white" transform="translate(5.39905 9.43048)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </div>
+
+<div class="meed">
+    Core Banking
+</div>
+
+<div class="bttm">
+    ISSL’s core banking solution, IntegraBanking Products, will allow your customers to do just that. What’s more, IntegraBanking will integrate your accounting, transaction handling, customer service and management reporting into one system, making it easier and faster for your employees to handle your customers’ requests. Becoming a more efficient bank has never been so easy!
+
+</div>
+            </div>
+            <div class="twgridbod">
+
+                <div class="toop">
+
+   
+<svg width="56" height="61" viewBox="0 0 56 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="16.2137" cy="16.5434" r="16.2137" fill="#3A3A85" fill-opacity="0.15"/>
+    <path d="M26.8176 32.2291C26.8176 32.8558 26.6942 33.4763 26.4544 34.0552C26.2146 34.6342 25.8631 35.1602 25.42 35.6033C24.9769 36.0464 24.4509 36.3979 23.8719 36.6377C23.293 36.8775 22.6725 37.0009 22.0458 37.0009C21.4192 37.0009 20.7987 36.8775 20.2197 36.6377C19.6408 36.3979 19.1148 36.0464 18.6717 35.6033C18.2286 35.1602 17.8771 34.6342 17.6373 34.0552C17.3975 33.4763 17.274 32.8558 17.274 32.2291C17.274 30.9636 17.7768 29.7498 18.6717 28.8549C19.5665 27.9601 20.7803 27.4573 22.0458 27.4573C23.3114 27.4573 24.5251 27.9601 25.42 28.8549C26.3149 29.7498 26.8176 30.9636 26.8176 32.2291V32.2291ZM24.1666 32.2291C24.1666 31.6666 23.9432 31.1272 23.5455 30.7295C23.1477 30.3318 22.6083 30.1083 22.0458 30.1083C21.4834 30.1083 20.9439 30.3318 20.5462 30.7295C20.1485 31.1272 19.925 31.6666 19.925 32.2291C19.925 32.7916 20.1485 33.331 20.5462 33.7288C20.9439 34.1265 21.4834 34.3499 22.0458 34.3499C22.6083 34.3499 23.1477 34.1265 23.5455 33.7288C23.9432 33.331 24.1666 32.7916 24.1666 32.2291ZM22.0458 48.6653C23.3114 48.6653 24.5251 48.1626 25.42 47.2677C26.3149 46.3728 26.8176 45.1591 26.8176 43.8935C26.8176 42.628 26.3149 41.4142 25.42 40.5194C24.5251 39.6245 23.3114 39.1217 22.0458 39.1217C20.7803 39.1217 19.5665 39.6245 18.6717 40.5194C17.7768 41.4142 17.274 42.628 17.274 43.8935C17.274 45.1591 17.7768 46.3728 18.6717 47.2677C19.5665 48.1626 20.7803 48.6653 22.0458 48.6653V48.6653ZM22.0458 46.0143C21.4834 46.0143 20.9439 45.7909 20.5462 45.3932C20.1485 44.9954 19.925 44.456 19.925 43.8935C19.925 43.3311 20.1485 42.7916 20.5462 42.3939C20.9439 41.9962 21.4834 41.7727 22.0458 41.7727C22.6083 41.7727 23.1477 41.9962 23.5455 42.3939C23.9432 42.7916 24.1666 43.3311 24.1666 43.8935C24.1666 44.456 23.9432 44.9954 23.5455 45.3932C23.1477 45.7909 22.6083 46.0143 22.0458 46.0143ZM18.5995 22.1553C18.248 22.1553 17.9108 22.295 17.6623 22.5435C17.4137 22.7921 17.274 23.1293 17.274 23.4808C17.274 23.8324 17.4137 24.1695 17.6623 24.4181C17.9108 24.6667 18.248 24.8063 18.5995 24.8063H41.3981C41.7497 24.8063 42.0868 24.6667 42.3354 24.4181C42.584 24.1695 42.7236 23.8324 42.7236 23.4808C42.7236 23.1293 42.584 22.7921 42.3354 22.5435C42.0868 22.295 41.7497 22.1553 41.3981 22.1553H18.5995ZM28.9384 32.4942C28.9384 31.7625 29.5323 31.1687 30.2639 31.1687H41.3981C41.7497 31.1687 42.0868 31.3084 42.3354 31.5569C42.584 31.8055 42.7236 32.1427 42.7236 32.4942C42.7236 32.8458 42.584 33.1829 42.3354 33.4315C42.0868 33.6801 41.7497 33.8197 41.3981 33.8197H30.2639C29.5323 33.8197 28.9384 33.2259 28.9384 32.4942ZM30.2639 42.3029C29.9124 42.3029 29.5752 42.4426 29.3267 42.6912C29.0781 42.9397 28.9384 43.2769 28.9384 43.6284C28.9384 43.98 29.0781 44.3171 29.3267 44.5657C29.5752 44.8143 29.9124 44.9539 30.2639 44.9539H41.3981C41.7497 44.9539 42.0868 44.8143 42.3354 44.5657C42.584 44.3171 42.7236 43.98 42.7236 43.6284C42.7236 43.2769 42.584 42.9397 42.3354 42.6912C42.0868 42.4426 41.7497 42.3029 41.3981 42.3029H30.2639ZM17.5391 15.7929C15.7814 15.7929 14.0957 16.4912 12.8528 17.7341C11.6099 18.977 10.9116 20.6627 10.9116 22.4204V47.3398C10.9116 49.0976 11.6099 50.7833 12.8528 52.0262C14.0957 53.2691 15.7814 53.9673 17.5391 53.9673H42.4585C44.2163 53.9673 45.902 53.2691 47.1449 52.0262C48.3878 50.7833 49.0861 49.0976 49.0861 47.3398V22.4204C49.0861 20.6627 48.3878 18.977 47.1449 17.7341C45.902 16.4912 44.2163 15.7929 42.4585 15.7929H17.5391ZM13.5626 22.4204C13.5626 21.3658 13.9816 20.3543 14.7273 19.6086C15.4731 18.8629 16.4845 18.4439 17.5391 18.4439H42.4585C43.5132 18.4439 44.5246 18.8629 45.2704 19.6086C46.0161 20.3543 46.435 21.3658 46.435 22.4204V47.3398C46.435 48.3945 46.0161 49.4059 45.2704 50.1516C44.5246 50.8974 43.5132 51.3163 42.4585 51.3163H17.5391C16.4845 51.3163 15.4731 50.8974 14.7273 50.1516C13.9816 49.4059 13.5626 48.3945 13.5626 47.3398V22.4204Z" fill="#3A3A85"/>
+    </svg>
+    
+                        
+                </div>
+
+<div class="meed">
+    Know Your Customer (KYC)
+</div>
+
+<div class="bttm">
+    Complying with Know Your Customer (KYC) rules and regulations no longer needs to be a burden to your financial institution. ISSL has developed a KYC product that adheres to global industry standards and best practices, yet can be tailored to suit regional regulatory requirements
+
+
+</div>
+            </div>
+
+            <div class="twgridbod">
+
+                <div class="toop">
+
+                    <svg width="57" height="61" viewBox="0 0 57 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1966_1669)">
+                        <path d="M10.3475 28.6024L30.8486 16.8249L51.3497 28.6024C51.6728 28.7714 52.0488 28.8091 52.399 28.7075C52.7492 28.6059 53.0467 28.3729 53.2292 28.0571C53.4117 27.7414 53.4651 27.3674 53.3783 27.0132C53.2916 26.659 53.0713 26.352 52.7636 26.1564L30.8486 13.5588L8.93368 26.1564C8.76471 26.2448 8.61537 26.3664 8.49464 26.514C8.37391 26.6616 8.28429 26.8321 8.23116 27.0153C8.17803 27.1984 8.16249 27.3904 8.18549 27.5797C8.20848 27.769 8.26953 27.9517 8.36496 28.1168C8.46038 28.2819 8.58822 28.4259 8.74078 28.5403C8.89333 28.6547 9.06745 28.7371 9.25266 28.7825C9.43788 28.8278 9.63035 28.8353 9.81851 28.8043C10.0067 28.7734 10.1866 28.7047 10.3475 28.6024Z" fill="#3A3A85"/>
+                        <path d="M11.0544 46.1909C11.0544 46.5659 11.2034 46.9255 11.4686 47.1906C11.7337 47.4558 12.0933 47.6048 12.4683 47.6048H49.2289C49.6039 47.6048 49.9635 47.4558 50.2286 47.1906C50.4938 46.9255 50.6427 46.5659 50.6427 46.1909C50.6427 45.8159 50.4938 45.4563 50.2286 45.1911C49.9635 44.926 49.6039 44.777 49.2289 44.777H44.9873V34.3568H42.1595V44.777H32.2625V34.3568H29.4347V44.777H19.5377V34.3568H16.7099V44.777H12.4683C12.0933 44.777 11.7337 44.926 11.4686 45.1911C11.2034 45.4563 11.0544 45.8159 11.0544 46.1909Z" fill="#3A3A85"/>
+                        <path d="M12.4967 29.2246H49.2573V32.0523H12.4967V29.2246Z" fill="#3A3A85"/>
+                        <path d="M52.0567 50.4326H9.64067C9.26569 50.4326 8.90607 50.5816 8.64092 50.8467C8.37577 51.1119 8.22681 51.4715 8.22681 51.8465C8.22681 52.2215 8.37577 52.5811 8.64092 52.8462C8.90607 53.1114 9.26569 53.2604 9.64067 53.2604H52.0567C52.4317 53.2604 52.7913 53.1114 53.0565 52.8462C53.3216 52.5811 53.4706 52.2215 53.4706 51.8465C53.4706 51.4715 53.3216 51.1119 53.0565 50.8467C52.7913 50.5816 52.4317 50.4326 52.0567 50.4326Z" fill="#3A3A85"/>
+                        <path d="M36.7162 25.803H41.2547L31.7677 20.3455C31.5957 20.2462 31.4007 20.194 31.2021 20.194C31.0036 20.194 30.8085 20.2462 30.6366 20.3455L21.1354 25.803H25.6739L31.188 22.636L36.7162 25.803Z" fill="#3A3A85"/>
+                        </g>
+                        <circle cx="17.0633" cy="16.5434" r="16.2137" fill="#3A3A85" fill-opacity="0.15"/>
+                        <defs>
+                        <clipPath id="clip0_1966_1669">
+                        <rect width="50.8992" height="50.8992" fill="white" transform="translate(5.39905 9.43048)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </div>
+
+<div class="meed">
+    Online Banking
+</div>
+
+<div class="bttm">
+    To retain current clients and attract new ones, you need to offer your clients the best solutions to bank online. ISSL’s customizable electronic banking solutions will simplify your customers’ banking experience by enabling them to conduct online banking transactions at any time of day or night, such as making transfers between personal and external accounts, checking account status, setting up standing orders and direct debits, paying utility bills and more.
+
+
+
+</div>
+            </div>
+
+            <div class="twgridbod">
+
+                <div class="toop">
+
+                    <svg width="57" height="61" viewBox="0 0 57 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="17.0633" cy="16.5353" r="16.2137" fill="#3A3A85" fill-opacity="0.15"/>
+                        <path d="M46.7547 12.6028H53.1172V18.9653H46.7547V12.6028ZM46.7547 22.1465H53.1172V28.509H46.7547V22.1465ZM37.2109 12.6028H43.5734V18.9653H37.2109V12.6028ZM37.2109 22.1465H43.5734V28.509H37.2109V22.1465Z" fill="#3A3A85"/>
+                        <path d="M49.936 34.8716V44.4153H11.761V18.9653H30.8485V15.7841H11.761C10.9172 15.7841 10.1081 16.1192 9.51148 16.7158C8.91488 17.3124 8.57971 18.1216 8.57971 18.9653V44.4153C8.57971 45.259 8.91488 46.0682 9.51148 46.6648C10.1081 47.2614 10.9172 47.5966 11.761 47.5966H24.486V53.9591H18.1235V57.1403H43.5735V53.9591H37.211V47.5966H49.936C50.7797 47.5966 51.5888 47.2614 52.1854 46.6648C52.782 46.0682 53.1172 45.259 53.1172 44.4153V34.8716H49.936ZM34.0297 53.9591H27.6672V47.5966H34.0297V53.9591Z" fill="#3A3A85"/>
+                        </svg>
+                        
+                        
+                </div>
+
+<div class="meed">
+    Mobile Banking
+</div>
+
+<div class="bttm">
+
+    ISSL’s mobile banking software is available as both an App and with SMS, and can be easily integrated into your existing technology interface. Similar to our online banking software, our customizable mobile solution will simplify your customers’ banking experience by enabling them to conduct a number of banking transactions on their regular phones, smart phones and tablets. Some of these transactions include viewing account balances and statements, as well as transferring funds internally between accounts and to external accounts.
+
+
+</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+        
+
+
+   
+
+        <!-- footer -->
+    </div>
+
+
+    <script>
+        const navToggler = document.querySelector(".nav-toggler");
+    navToggler.addEventListener("click", navToggle);
+    
+    function navToggle() {
+       navToggler.classList.toggle("active");
+       const nav = document.querySelector(".nav");
+       nav.classList.toggle("open");
+       if(nav.classList.contains("open")){
+           nav.style.maxHeight = nav.scrollHeight + "px";
+       }
+       else{
+           nav.removeAttribute("style");
+       }
+    } 
+    </script>
+    
+    <script>
+        window.addEventListener('scroll',(e)=>{
+          const nav = document.querySelector('.header');
+          if(window.pageYOffset>0){
+            nav.classList.add("add-shadow");
+          }else{
+            nav.classList.remove("add-shadow");
+          }
+        });
+      </script>
+</body>
+</html>
