@@ -1,93 +1,106 @@
 import React from "react"
 import { Link } from "gatsby"
-import { se2 } from './isslgenesis.module.css'
-import { sectcontnt } from './isslgenesis.module.css'
-import { herosectiontext } from './isslgenesis.module.css'
-import { bodycontainer } from './isslgenesis.module.css'
-import { btmsd } from './isslgenesis.module.css'
-import { isslbodyofwork } from './isslgenesis.module.css'
-import { nomediaquerygrid } from './isslgenesis.module.css'
-import { autogrid } from './isslgenesis.module.css'
-import { boxw } from './isslgenesis.module.css'
-import { imside } from './isslgenesis.module.css'
-import { txside } from './isslgenesis.module.css'
-import { txside2} from './isslgenesis.module.css'
-import { txside3 } from './isslgenesis.module.css'
-import { rgtarw } from './isslgenesis.module.css'
-import { nxtscr } from './isslgenesis.module.css'
-import { splitsecond} from './isslgenesis.module.css'
-import { topspanner } from './isslgenesis.module.css'
-import { bottomspanner } from './isslgenesis.module.css'
-import { imageitall} from './isslgenesis.module.css'
-import { oursolution} from './isslgenesis.module.css'
-import { esx } from './isslgenesis.module.css'
-import { solutionsflex1 } from './isslgenesis.module.css'
-import {strech1 } from './isslgenesis.module.css'
-import { ico } from './isslgenesis.module.css'
-import { hed } from './isslgenesis.module.css'
-import { tx} from './isslgenesis.module.css'
-import { strech2 } from './isslgenesis.module.css'
-import { bpn} from './isslgenesis.module.css'
-import { box1 } from './isslgenesis.module.css'
-import { as } from './isslgenesis.module.css'
-import { bs } from './isslgenesis.module.css'
-import { ntnt } from './isslgenesis.module.css'
-import { footersect } from './isslgenesis.module.css'
-import { startconvo } from './isslgenesis.module.css'
-import { fs } from './isslgenesis.module.css'
-import { startconvotxt } from './isslgenesis.module.css'
-import { startconvobtn } from './isslgenesis.module.css'
-import { contactusbtn } from './isslgenesis.module.css'
-import { footergrid } from './isslgenesis.module.css'
-import { logos } from './isslgenesis.module.css'
-import { logo } from './isslgenesis.module.css'
-import { addresssd } from './isslgenesis.module.css'
-import { addre } from './isslgenesis.module.css'
-import { tele } from './isslgenesis.module.css'
-import { mail } from './isslgenesis.module.css'
-import { linksd } from './isslgenesis.module.css'
-import { qkl } from './isslgenesis.module.css'
-import { othlink } from './isslgenesis.module.css'
-import { inputsd } from './isslgenesis.module.css'
-import { getupdat } from './isslgenesis.module.css'
-import { ourproducts } from './isslgenesis.module.css'
-import { howitall } from './isslgenesis.module.css'
-import { tpsd } from './isslgenesis.module.css'
-import { hersec } from './isslgenesis.module.css'
-import { inptbx } from './isslgenesis.module.css'
-import { subbtn } from './isslgenesis.module.css'
+import { se2 } from './isslcontact.module.css'
+import { sectcontnt } from './isslcontact.module.css'
+import { herosectiontext } from './isslcontact.module.css'
+import { bodycontainer } from './isslcontact.module.css'
+import { btmsd } from './isslcontact.module.css'
+import { isslbodyofwork } from './isslcontact.module.css'
+import { nomediaquerygrid } from './isslcontact.module.css'
+import { autogrid } from './isslcontact.module.css'
+import { boxw } from './isslcontact.module.css'
+import { imside } from './isslcontact.module.css'
+import { txside } from './isslcontact.module.css'
+import { txside2} from './isslcontact.module.css'
+import { txside3 } from './isslcontact.module.css'
+import { rgtarw } from './isslcontact.module.css'
+import { nxtscr } from './isslcontact.module.css'
+import { splitsecond} from './isslcontact.module.css'
+import { topspanner } from './isslcontact.module.css'
+import { bottomspanner } from './isslcontact.module.css'
+import { imageitall} from './isslcontact.module.css'
+import { oursolution} from './isslcontact.module.css'
+import { esx } from './isslcontact.module.css'
+import { solutionsflex1 } from './isslcontact.module.css'
+import {strech1 } from './isslcontact.module.css'
+import { ico } from './isslcontact.module.css'
+import { hed } from './isslcontact.module.css'
+import { tx} from './isslcontact.module.css'
+import { strech2 } from './isslcontact.module.css'
+import { bpn} from './isslcontact.module.css'
+import { box1 } from './isslcontact.module.css'
+import { as } from './isslcontact.module.css'
+import { bs } from './isslcontact.module.css'
+import { ntnt } from './isslcontact.module.css'
+import { footersect } from './isslcontact.module.css'
+import { startconvo } from './isslcontact.module.css'
+import { fs } from './isslcontact.module.css'
+import { startconvotxt } from './isslcontact.module.css'
+import { startconvobtn } from './isslcontact.module.css'
+import { contactusbtn } from './isslcontact.module.css'
+import { footergrid } from './isslcontact.module.css'
+import { logos } from './isslcontact.module.css'
+import { logo } from './isslcontact.module.css'
+import { addresssd } from './isslcontact.module.css'
+import { addre } from './isslcontact.module.css'
+import { tele } from './isslcontact.module.css'
+import { mail } from './isslcontact.module.css'
+import { linksd } from './isslcontact.module.css'
+import { qkl } from './isslcontact.module.css'
+import { othlink } from './isslcontact.module.css'
+import { inputsd } from './isslcontact.module.css'
+import { getupdat } from './isslcontact.module.css'
+import { ourproducts } from './isslcontact.module.css'
+import { howitall } from './isslcontact.module.css'
+import { tpsd } from './isslcontact.module.css'
+import { hersec } from './isslcontact.module.css'
+import { inptbx } from './isslcontact.module.css'
+import { subbtn } from './isslcontact.module.css'
 
-import { paragraph1 } from './isslgenesis.module.css'
-import { hersec3 } from './isslgenesis.module.css'
-import { emptys } from './isslgenesis.module.css'
-import { auto_grid } from './isslgenesis.module.css'
-import { auto_grid2 } from './isslgenesis.module.css'
-import { boxgrid } from './isslgenesis.module.css'
-import { heas } from './isslgenesis.module.css'
-import { bod } from './isslgenesis.module.css'
-import { vision } from './isslgenesis.module.css'
-import { sss } from './isslgenesis.module.css'
-import { dddd } from './isslgenesis.module.css'
-import { sstx } from './isslgenesis.module.css'
-import { ssbod } from './isslgenesis.module.css'
-import { sideofimgs } from './isslgenesis.module.css'
-import {sideofimg} from './isslgenesis.module.css'
+import { paragraph1 } from './isslcontact.module.css'
+import { hersec3 } from './isslcontact.module.css'
+import { emptys } from './isslcontact.module.css'
+import { auto_grid } from './isslcontact.module.css'
+import { auto_grid2 } from './isslcontact.module.css'
+import { boxgrid } from './isslcontact.module.css'
+import { heas } from './isslcontact.module.css'
+import { bod } from './isslcontact.module.css'
+import { vision } from './isslcontact.module.css'
+import { sss } from './isslcontact.module.css'
+import { dddd } from './isslcontact.module.css'
+import { sstx } from './isslcontact.module.css'
+import { ssbod } from './isslcontact.module.css'
+import { sideofimgs } from './isslcontact.module.css'
+import {sideofimg} from './isslcontact.module.css'
 
-import { rvs } from './isslgenesis.module.css'
-import {sideoftext} from './isslgenesis.module.css'
+import { rvs } from './isslcontact.module.css'
+import {sideoftext} from './isslcontact.module.css'
 
-import { twosidecontent } from './isslgenesis.module.css'
+import { twosidecontent } from './isslcontact.module.css'
 
-import { emp } from './isslgenesis.module.css'
-import { twgrid } from './isslgenesis.module.css'
-import { twgridbod } from './isslgenesis.module.css'
-import { meed } from './isslgenesis.module.css'
-import { bttm } from './isslgenesis.module.css'
+import { emp } from './isslcontact.module.css'
+import { twgrid } from './isslcontact.module.css'
+import { twgridbod } from './isslcontact.module.css'
+import { meed } from './isslcontact.module.css'
+import { bttm } from './isslcontact.module.css'
 
-import { bdy } from './isslgenesis.module.css'
-import {hdn} from './isslgenesis.module.css'
+import { bdy } from './isslcontact.module.css'
+import {hdn} from './isslcontact.module.css'
 
-import {hersec2} from './isslgenesis.module.css'
+import {hersec2} from './isslcontact.module.css'
+import {submitting} from './isslcontact.module.css'
+import {formcontent} from './isslcontact.module.css'
+import {sideoftext} from './isslcontact.module.css'
+import {textarea} from './isslcontact.module.css'
+import {label} from './isslcontact.module.css'
+import {formcontent} from './isslcontact.module.css'
+import {slimbod} from './isslcontact.module.css'
+import {sideoftext} from './isslcontact.module.css'
+import {slimbod} from './isslcontact.module.css'
+import {boldhd} from './isslcontact.module.css'
+import {hersec4} from './isslcontact.module.css'
+
+
 
 import {meimg} from './assets/img/Rectangle 126.png'
 import Isslnavbar from '../isslnavbar/index'
@@ -96,123 +109,130 @@ import styles from './_styles'
 import Myfooter from '../myfooter/index'
 
 
-const Isslgenesis = (props) => (
+const Isslcontact = (props) => (
 
 <>
 <Isslnavbar />
 
-<div className={sectcontnt}>
-  <div className={hersec2}>
+<>
+  <div className={hersec4}>
     <div className={bodycontainer}>
       <div className={tpsd}>
-        <h3>
-          {" "}
-          <p>Re-think applications; </p>
-          Re-imagine business
-        </h3>
+        <h3>Let’s Start a Conversation</h3>
       </div>
     </div>
   </div>
   <div className={bodycontainer}>
     <div className={emptys}>
-      <div className={rvs}>
+      <div className={twosidecontent}>
         <div className={sideoftext}>
-          <div className={hdn}>Integration at a low-cost</div>
-          <div className={bdy}>
-          Biometrics technology has become a fast and reliable solution for access control, duplicate identity and time and attendance challenges. From an access control system for warehouses and company computers to eliminating “ghost workers”, ISSL can integrate a low-cost biometric verification system into your technology platform that will help you improve your security and boost your profitability.
+          <div className={boldhd}>How can we assist you?</div>
+          <div className={slimbod}>
+            <span>ISSL is here to help you; </span>
+            Our experts are available to answer any questions you might have.
+            Leave us a message.
+          </div>
+          <div className={slimbod}>
+            <span>View the usage of our platform: </span>
+            Request a custom demo
+          </div>
+          <div className={slimbod}>
+            <span>View our Products </span>
+            Our product is your gateway to motivated employees, satisfied
+            customers and increased revenue.
+          </div>
+          <div className={slimbod}>
+            <div className={boldhd}>Visit Us</div>
+            Our product is your gateway to motivated employees, satisfied
+            customers and increased revenue.
+          </div>
+          <div className={slimbod}>
+            <div className={boldhd}>Email Us</div>
+            mails@isslng.com
           </div>
         </div>
-
-        <div className={sideofimg}>
-          <img
-            src="https://github.com/Manlikevee/reactwebsiteas/blob/master/assets/img/business-3d-e-wallet-in-a-phone-with-bank-card-stack-of-coins-and-leather-wallet 1 (10).png"
-            alt=""
-          />
+        <div className={sideoftext}>
+          <form id={form}>
+            <div className={formbody}>
+              <div className={formcontent}>
+                <label htmlFor="">First Name</label>
+                <input
+                  type="text"
+                  name="from_name"
+                  id="from_name"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Last Name</label>
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Company Name</label>
+                <input
+                  type="text"
+                  name="company_name"
+                  id="company_name"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Company Email</label>
+                <input
+                  type="email"
+                  name="company_email"
+                  id="company_email"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Job Title</label>
+                <input
+                  type="text"
+                  name="job_title"
+                  id="job_title"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Business Type</label>
+                <input
+                  type="text"
+                  name="business_type"
+                  id="business_type"
+                  required="true"
+                />
+              </div>
+              <div className={formcontent}>
+                <label htmlFor="">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols={30}
+                  rows={10} />
+              </div>
+              <input
+                type="submit"
+                id="button"
+                defaultValue="Send Email"
+                className={submitting}
+              />
+              <div className={button-area}>
+                <span />
+              </div>
+            </div>
+          </form>
         </div>
-      </div>
-      <div className={isslbodyofwork}>
-      ISSL offers a combination of online banking and bISSL can integrate a low-cost biometric verification system into your technology platform that will help you improve your security and boost your profitability.
       </div>
     </div>
   </div>
-  <div className={emp}>
-    <div className={bodycontainer}>
-      <div className={twgrid}>
-        <div className={twgridbod}>
-          <div className={toop}>
-          <svg
-                width={57}
-                height={61}
-                viewBox="0 0 57 61"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="17.0721"
-                  cy="16.5434"
-                  r="16.2137"
-                  fill="#3A3A85"
-                  fillOpacity="0.15"
-                />
-                <path
-                  d="M30.8358 13.6713C19.1288 13.6713 9.64868 23.1727 9.64868 34.8797C9.64868 46.5867 19.1288 56.088 30.8358 56.088C42.564 56.088 52.0653 46.5867 52.0653 34.8797C52.0653 23.1727 42.564 13.6713 30.8358 13.6713ZM30.857 51.8463C21.4829 51.8463 13.8903 44.2537 13.8903 34.8797C13.8903 25.5056 21.4829 17.913 30.857 17.913C40.2311 17.913 47.8237 25.5056 47.8237 34.8797C47.8237 44.2537 40.2311 51.8463 30.857 51.8463ZM31.9174 24.2755H28.7362V37.0005L39.8706 43.6811L41.4612 41.0725L31.9174 35.4099V24.2755Z"
-                  fill="#3A3A85"
-                />
-              </svg>
-          </div>
-          <div className={meed}>  Time and attendance</div>
-          <div className={bttm}>
-              Losing money due to time and attendance management issues?
-              Employees using time punch cards that can be easily lost,
-              forgotten or “buddy punched”? HR team spend too much time on
-              payroll and attendance disputes? “Ghost workers” on your payroll?
-              In partnership with ZKTeco and FingerTec, we can solve your time
-              attendance issues by implementing biometrics software that keeps
-              your employees honest, improve efficiency and boost profitability.
-          </div>
-        </div>
-        <div className={twgridbod}>
-          <div className={toop}>
-          <svg
-                width={56}
-                height={61}
-                viewBox="0 0 56 61"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="16.2137"
-                  cy="16.5434"
-                  r="16.2137"
-                  fill="#3A3A85"
-                  fillOpacity="0.15"
-                />
-                <path
-                  d="M43.3619 16.9136C43.176 16.9141 42.9933 16.8646 42.833 16.7704C38.421 14.4084 34.6065 13.4063 30.0335 13.4063C25.4833 13.4063 21.1627 14.5276 17.2329 16.7704C16.6772 17.0846 15.9922 16.8659 15.6701 16.2893C15.5264 16.011 15.4939 15.6884 15.5794 15.387C15.6649 15.0857 15.8619 14.8282 16.1304 14.6668C20.3688 12.263 25.1609 11.0061 30.0335 11.0203C34.9276 11.0203 39.2024 12.1417 43.8908 14.6469C44.1643 14.7973 44.368 15.049 44.4582 15.3478C44.5483 15.6467 44.5177 15.969 44.373 16.2455C44.2859 16.4419 44.1444 16.6092 43.9652 16.7276C43.786 16.846 43.5767 16.9105 43.3619 16.9136ZM10.4767 29.4398C10.238 29.4381 10.0055 29.3631 9.81066 29.225C9.55721 29.0367 9.38676 28.7573 9.3352 28.4458C9.28365 28.1342 9.35502 27.8148 9.53429 27.5549C11.8099 24.2146 14.7038 21.59 18.1525 19.7529C25.368 15.8916 34.6065 15.8638 41.8449 19.729C45.2925 21.5662 48.1875 24.1668 50.4631 27.4833C50.6416 27.7435 50.7125 28.0627 50.661 28.374C50.6095 28.6853 50.4395 28.9646 50.1867 29.1534C50.064 29.2451 49.9238 29.3107 49.7748 29.346C49.6258 29.3813 49.4711 29.3857 49.3204 29.3589C49.1696 29.332 49.0259 29.2746 48.8983 29.19C48.7706 29.1054 48.6617 28.9955 48.5782 28.8671C46.5104 25.8609 43.8908 23.4988 40.7881 21.8525C34.193 18.3451 25.7587 18.3451 19.1864 21.8763C16.0608 23.5465 13.4413 25.9324 11.3734 28.9347C11.2843 29.0927 11.1536 29.2233 10.9955 29.3123C10.8375 29.4013 10.6581 29.4454 10.4767 29.4398ZM24.8391 58.242C24.6872 58.2435 24.5368 58.2123 24.398 58.1505C24.2593 58.0888 24.1354 57.9979 24.0348 57.8841C22.0356 55.8044 20.952 54.4643 19.416 51.5813C17.8254 48.6466 17.0033 45.0676 17.0033 41.2263C17.0033 34.1401 22.8399 28.3661 30.0106 28.3661C37.1813 28.3661 43.0219 34.1401 43.0219 41.2263C43.0264 41.38 43.0001 41.533 42.9444 41.6764C42.8887 41.8197 42.8048 41.9504 42.6977 42.0607C42.5906 42.171 42.4624 42.2587 42.3208 42.3186C42.1791 42.3785 42.027 42.4093 41.8732 42.4093C41.7194 42.4093 41.5672 42.3785 41.4256 42.3186C41.284 42.2587 41.1558 42.171 41.0487 42.0607C40.9416 41.9504 40.8577 41.8197 40.802 41.6764C40.7463 41.533 40.7199 41.38 40.7245 41.2263C40.7245 35.4523 35.9208 30.752 30.0156 30.752C24.1104 30.752 19.3017 35.4523 19.3017 41.2263C19.3017 44.662 20.0364 47.8353 21.4381 50.4121C22.9095 53.156 23.9235 54.3251 25.6901 56.1861C25.8996 56.4177 26.0156 56.7189 26.0156 57.0311C26.0156 57.3434 25.8996 57.6446 25.6901 57.8762C25.4645 58.1037 25.1594 58.2349 24.8391 58.242ZM41.317 53.828C38.5821 53.828 36.1693 53.1122 34.193 51.7045C32.5092 50.5243 31.1336 48.9568 30.182 47.134C29.2305 45.3112 28.7309 43.2865 28.7252 41.2303C28.7187 41.0753 28.7437 40.9207 28.7985 40.7756C28.8534 40.6306 28.937 40.4981 29.0443 40.3862C29.1517 40.2743 29.2806 40.1853 29.4232 40.1244C29.5659 40.0636 29.7193 40.0322 29.8744 40.0322C30.0295 40.0322 30.183 40.0636 30.3256 40.1244C30.4682 40.1853 30.5971 40.2743 30.7045 40.3862C30.8118 40.4981 30.8954 40.6306 30.9503 40.7756C31.0051 40.9207 31.0301 41.0753 31.0236 41.2303C31.0275 42.9004 31.4348 44.545 32.211 46.0238C32.9871 47.5027 34.1091 48.7722 35.4814 49.7242C37.1127 50.8695 39.0205 51.4142 41.319 51.4142C42.1194 51.4 42.9174 51.3202 43.7049 51.1757C44.3252 51.0564 44.9227 51.4858 45.037 52.1539C45.0953 52.4622 45.0289 52.781 44.8524 53.0404C44.6759 53.2999 44.4037 53.4787 44.0956 53.5377C43.1802 53.7186 42.25 53.8144 41.317 53.824V53.828ZM36.6972 58.7391C36.5963 58.7349 36.4962 58.7189 36.399 58.6914C32.7445 57.6415 30.3546 56.2338 27.8493 53.6809C24.6313 50.3644 22.8627 45.9504 22.8627 41.2263C22.8627 37.3611 26.034 34.2116 29.94 34.2116C33.846 34.2116 37.0183 37.3611 37.0183 41.2263C37.0183 43.7792 39.1557 45.855 41.7981 45.855C44.4406 45.855 46.578 43.7792 46.578 41.2263C46.578 32.2313 39.109 24.9303 29.9172 24.9303C23.3906 24.9303 17.4158 28.7001 14.7277 34.5457C13.833 36.4783 13.3717 38.7449 13.3717 41.2263C13.3717 43.0873 13.5317 46.022 14.9106 49.8395C15.1412 50.4599 14.842 51.1518 14.2445 51.3665C14.1025 51.4206 13.9511 51.4454 13.7992 51.4395C13.6474 51.4335 13.4984 51.397 13.361 51.332C13.2237 51.267 13.1009 51.1749 13.0001 51.0612C12.8992 50.9476 12.8224 50.8147 12.7742 50.6706C11.6654 47.6453 11.0974 44.4484 11.0961 41.2263C11.0961 38.3632 11.625 35.7585 12.6589 33.4959C15.7159 26.8351 22.4949 22.5205 29.9172 22.5205C40.3735 22.5205 48.8764 30.8952 48.8764 41.2024C48.8764 45.0676 45.7051 48.2171 41.7981 48.2171C37.8912 48.2171 34.7198 45.0676 34.7198 41.2024C34.7208 38.6495 32.5834 36.5697 29.941 36.5697C27.2986 36.5697 25.1612 38.6455 25.1612 41.1985C25.1612 45.2744 26.6782 49.0959 29.4589 51.959C31.646 54.2018 33.7337 55.4385 36.9736 56.373C37.5939 56.54 37.9389 57.2081 37.7778 57.8284C37.7276 58.0803 37.5934 58.3076 37.397 58.473C37.2006 58.6385 36.9539 58.7323 36.6972 58.7391Z"
-                  fill="#3A3A85"
-                />
-              </svg>
-          </div>
-          <div className={meed}>Access Control</div>
-          <div className={bttm}>
-          Biometric software for access control can be used for controlling
-              access to workstations, networks and physical locations. Whether
-              you have one facility that requires restricted access, or a number
-              of sites, you can use biometric verification technology to limit
-              access and see real-time who is gaining access. Through our
-              partner, we most commonly install fingerprint readers and facial
-              recognition devices. These can replace card and PIN identification
-              systems, both of which can be lost or stolen, increasing your risk
-              exposure. Access control via biometric verification is easy to
-              use, secure and fast.
-          </div>
-        </div>
+</>
 
-      </div>
-    </div>
-  </div>
-  {/* footer */}
-</div>
 
 
 
@@ -222,4 +242,4 @@ const Isslgenesis = (props) => (
 
 )
 
-export default Isslgenesis
+export default Isslcontact
