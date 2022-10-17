@@ -936,6 +936,7 @@ text-align: left;
   }
 
   .startconvotxt{
+    width: 90%;
     font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
@@ -944,11 +945,43 @@ letter-spacing: 0em;
 text-align: left;
 color: rgba(255, 255, 255, 1);
 
+
+  }
+
+  @media (max-width:700px){
+    .startconvotxt{
+      width: 100%;
+      font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  
+  
+    }
+  }
+
+  .contactusbtn{
+width: 200px;
   }
 
   .fs{
     display: flex;
-    justify-content: space-between;
+    grid-gap: 10px;
+    align-items: center;
+height: 100%;
+  }
+
+  .stxt{
+
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
   }
 
   .contactusbtn a{
@@ -1359,3 +1392,200 @@ color: rgba(34, 34, 34, 1);
   font-size: 15px;
 }
 
+
+.sideofimg img{
+  border-radius : 16px;
+}
+
+.emp{
+  width: 100%;
+  background: rgba(20, 20, 255, 0.18);
+
+}
+.thered {
+background: rgba(221, 17, 21, 1) !important;
+border: 2px solid rgba(221, 17, 21, 1) !important;
+color: white;
+padding: 15px 13px !important;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+.contactbtn {
+background-color: transparent;
+border: 1px solid #fff;
+color: white;
+padding: 15px 13px !important;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+.twgrid {
+padding-block: 50px;
+display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+grid-gap: 20px;
+grid-auto-rows: 1fr;
+}
+
+.twgridbod{
+padding: 10px;
+display: flex;
+flex-direction: column;
+grid-gap: 15px;
+}
+
+.toop{
+
+}
+
+.meed{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: justified;
+color: rgba(34, 34, 34, 1);
+
+}
+
+.bttm{
+font-family: Poppins;
+font-size: 15.5px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: justified;
+color:rgba(34, 34, 34, 1);
+
+
+}
+.gtstartedlist{
+display: flex;
+flex-direction: column;
+grid-gap: 16px;
+}
+
+.listcon{
+display: flex;
+grid-gap: 10px;
+
+}
+
+.listribbon{
+width: 2%;
+}
+
+.listcontent{
+color: 
+rgba(0, 0, 0, 1);
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.sideofimg img {
+height: auto;
+border-radius: 16px;
+max-height: 483px;
+width: 100%;
+object-fit: contain;
+}
+
+.productdiv {
+padding: 4rem 2rem;
+grid-auto-rows: 1fr;
+display: grid;
+align-items: center;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 10px;
+}
+
+.productsolution {
+margin-top: 50px;
+font-size: 28px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(34, 34, 34, 1);
+margin-bottom: 3px;
+}
+
+.solutionbody {
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+.hersec23{
+width: 100%;
+min-height: 600px;
+display: flex;
+gap: 15px;
+justify-content: center;
+align-items: center;
+background: url('https://github.com/Manlikevee/reactwebsiteas/raw/master/Rectangle%2036%20(1).png');
+background-color: rgba(58, 58, 133, 0.53);
+background-repeat: no-repeat;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-blend-mode: darken;
+
+margin-bottom: 50px;}
+
+.pps{
+width: 80%;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-top: -40px;
+
+}
+
+@media (max-width:900px){
+.pps{
+width: 90%;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-top: -40px;
+
+}  
+}
