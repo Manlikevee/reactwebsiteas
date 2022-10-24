@@ -98,7 +98,7 @@ import styles from './_styles'
 import Myfooter from '../myfooter/index'
 
 
-const Isslfinancial = (props) => (
+const Isslbankingsolutions = (props) => (
 
 <>
 <Isslnavbar />
@@ -129,7 +129,7 @@ const Isslfinancial = (props) => (
         </div>
         <div className={sideofimg}>
           <img
-            src="https://github.com/Manlikevee/reactwebsiteas/blob/master/business-3d-e-wallet-in-a-phone-with-bank-card-stack-of-coins-and-leather-wallet%201%20(12).png?raw=true"
+            src="https://github.com/Manlikevee/reactwebsiteas/raw/master/business-3d-e-wallet-in-a-phone-with-bank-card-stack-of-coins-and-leather-wallet%201%20(12).png"
             alt=""
           />
         </div>
@@ -258,4 +258,4 @@ ISSL’s mobile banking software is available as both an App and with SMS, and c
 
 )
 
-export default Isslfinancial
+export default Isslbankingsolutions
